@@ -74,7 +74,7 @@ export default function HairSalonWebsite() {
         <section id="home" className="relative">
           <div className="absolute inset-0 z-0">
             <img
-              src="/images/interior.jpg"
+              src="./images/interior.jpg"
               alt="Salon interior"
               className="h-full w-full object-cover brightness-50"
             />
@@ -114,7 +114,7 @@ export default function HairSalonWebsite() {
                 </CardHeader>
                 <CardContent>
                   <img
-                    src="/images/haircut.jpg"
+                    src="./images/haircut.jpg"
                     alt="Haircut service"
                     className="w-full h-[200px] rounded-md object-cover"
                   />
@@ -133,7 +133,7 @@ export default function HairSalonWebsite() {
                 </CardHeader>
                 <CardContent>
                   <img
-                    src="/images/style1.jpg"
+                    src="./images/style1.jpg"
                     alt="Color service"
                     className="w-full h-[200px] rounded-md object-cover"
                   />
@@ -152,7 +152,7 @@ export default function HairSalonWebsite() {
                 </CardHeader>
                 <CardContent>
                   <img
-                    src="/images/style2.jpg"
+                    src="./images/style2.jpg"
                     alt="Treatment service"
                     className="w-full h-[200px] rounded-md object-cover"
                   />
@@ -171,7 +171,7 @@ export default function HairSalonWebsite() {
                 </CardHeader>
                 <CardContent>
                   <img
-                    src="/images/haircut.jpg"
+                    src="./images/haircut.jpg"
                     alt="Blowout service"
                     className="w-full h-[200px] rounded-md object-cover"
                   />
@@ -190,7 +190,7 @@ export default function HairSalonWebsite() {
                 </CardHeader>
                 <CardContent>
                   <img
-                    src="/images/style1.jpg"
+                    src="./images/style1.jpg"
                     alt="Extensions service"
                     className="w-full h-[200px] rounded-md object-cover"
                   />
@@ -209,7 +209,7 @@ export default function HairSalonWebsite() {
                 </CardHeader>
                 <CardContent>
                   <img
-                    src="/images/style2.jpg"
+                    src="./images/style2.jpg"
                     alt="Bridal service"
                     className="w-full h-[200px] rounded-md object-cover"
                   />
@@ -231,7 +231,7 @@ export default function HairSalonWebsite() {
             <div className="grid gap-12 md:grid-cols-2 md:gap-16 items-center">
               <div>
                 <img
-                  src="/images/about.jpeg"
+                  src="./images/about.jpeg"
                   alt="Salon interior"
                   className="w-full rounded-lg object-cover"
                 />
@@ -296,7 +296,7 @@ export default function HairSalonWebsite() {
               {Array.from({ length: 8 }).map((_, i) => (
                 <div key={i} className="overflow-hidden rounded-lg">
                   <img
-                    src={`/images/${i % 2 === 0 ? "style1.jpg" : "style2.jpg"}`}
+                    src={`./images/${i % 2 === 0 ? "style1.jpg" : "style2.jpg"}`}
                     alt={`Gallery image ${i + 1}`}
                     className="h-full w-full object-cover transition-transform hover:scale-105"
                   />
@@ -330,7 +330,7 @@ export default function HairSalonWebsite() {
                 <Card key={i} className="overflow-hidden">
                   <div className="aspect-square overflow-hidden">
                     <img
-                      src="/images/team.png"
+                      src="./images/team.png"
                       alt={stylist.name}
                       className="h-full w-full object-cover transition-transform hover:scale-105"
                     />
