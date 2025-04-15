@@ -14,4 +14,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  base: '/marthaHair/', // Replace 'marthaHair' with your repository name
 })
