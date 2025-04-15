@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
+// Vercel deploy
+
 // Get the directory name of the current module
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
